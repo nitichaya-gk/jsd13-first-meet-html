@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order Form</title>
+</head>
+<body>
+  <h1>Mala-tang</h1>
+  <p>order here</p>
+  <form action="" method="get">
+    <label>
+      กรอกชื่อของคุณ :
+      <input id="cname" type="text" name="cname" />
+    </label>
+
+    <p>เลือกน้ำซุป</p>
+
+    <label>
+      น้ำซุปหม่าล่า
+      <input type="radio" name="soup" value="mala" />
+    </label>
+    <label>
+      น้ำซุปต้มยำ
+      <input type="radio" name="soup" value="tomyum" />
+    </label>
+    <label>
+      น้ำซุปใส
+      <input type="radio" name="soup" value="clear" />
+    </label>
+    <label for="sukisoup">
+      น้ำซุปสุกี้
+      <input type="radio" name="soup" id="sukisoup" value="suki" />
+    </label>
+
+    <p>เลือกเนื้อสัตว์</p>
+
+    <label for="pork">
+      เนื้อหมู
+      <input type="checkbox" name="meat" id="pork" value="pork" />
+    </label>
+    <label for="beef">
+      เนื้อวัว
+      <input type="checkbox" name="meat" id="beef" value="beef" />
+    </label>
+
+    <br />
+    <button type="submit">สั่งอาหาร</button>
+  </form>
+</body>
+</html>
